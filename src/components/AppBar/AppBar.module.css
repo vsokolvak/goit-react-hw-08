@@ -1,0 +1,27 @@
+.header {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.navigation, .auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationLink {
+    color: black;
+}
+
+.authList, .navigationList {
+    display: flex;
+    gap: 15px;
+}
+
+.authLink {
+    color: black;
+}

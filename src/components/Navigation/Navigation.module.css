@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationLink {
+    color: black;
+}
+
+.navigationList {
+    display: flex;
+    gap: 15px;
+}

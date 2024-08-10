@@ -16,8 +16,8 @@
 }
 
 a {
+  color: black;
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
   transition: all 0.1s linear;
 }
@@ -27,7 +27,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   min-width: 320px;
   min-height: 100vh;
   padding: 20px;

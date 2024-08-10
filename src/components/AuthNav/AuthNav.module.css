@@ -1,0 +1,15 @@
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authList {
+    display: flex;
+    gap: 15px;
+}
+
+.authLink {
+    color: black;
+}
