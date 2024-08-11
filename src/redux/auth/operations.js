@@ -1,7 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { useSelector } from "react-redux";
-import { getToken } from "./selectors";
+import { contacts } from "../contacts/operations";
 
 const auth = axios.create({
   baseURL: "https://connections-api.goit.global/users",
@@ -9,6 +8,7 @@ const auth = axios.create({
 
 const setAuthorizationToken = (token) => {
   auth.defaults.headers.common.Authorization = `Bearer ${token}`;
+  contacts.defaults.headers.common.Authorization = `Bearer ${token}`;
 };
 
 export const register = createAsyncThunk(
